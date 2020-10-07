@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  artisan:
+    env_file: .env.local
+  default_consumer:
+    env_file: .env.local
+  topic_consumer:
+    env_file: .env.local
+  header_consumer:
+    env_file: .env.local
+  direct_consumer:
+    env_file: .env.local

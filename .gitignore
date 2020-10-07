@@ -2,3 +2,7 @@
 /.idea
 /.vscode
 /.vagrant
+.env.*
+!.env.example
+docker-compose.override.yml
+volume
